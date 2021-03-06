@@ -49,7 +49,7 @@ export default function Home() {
           <div className='flex flex-col min-h-screen py-12 space-y-7 layout'>
             <h1 class='mb-8'>Daftar Kelas Semester 4 2021</h1>
             <div>
-              <h3 className='mb-4'>1. Login MyITS</h3>
+              <h3 className='mb-4'>1. Login MyITS SI Akademik</h3>
               <CustomLink href='https://akademik.its.ac.id/'>
                 Open My ITS
               </CustomLink>
