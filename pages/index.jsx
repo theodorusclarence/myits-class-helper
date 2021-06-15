@@ -1,5 +1,6 @@
 import { NextSeo } from 'next-seo';
 import CustomLink from '@/components/CustomLink';
+import UnstyledLink from '@/components/UnstyledLink';
 import { useState } from 'react';
 
 const data = [
@@ -49,7 +50,16 @@ export default function Home() {
           <div className='flex flex-col min-h-screen py-12 space-y-7 layout'>
             <h1 class='mb-8'>Daftar Kelas Semester 4 2021</h1>
             <div>
-              <h3 className='mb-4'>1. Login MyITS SI Akademik</h3>
+              <h3 className='mb-2'>1. Login MyITS SI Akademik</h3>
+              <p className='mb-4'>
+                Buka sampai muncul{' '}
+                <UnstyledLink
+                  href='https://i.imgur.com/aAf0YKh.png'
+                  className='font-medium text-blue-500'
+                >
+                  tampilan seperti ini
+                </UnstyledLink>
+              </p>
               <CustomLink href='https://akademik.its.ac.id/'>
                 Open My ITS
               </CustomLink>
